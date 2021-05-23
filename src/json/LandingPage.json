@@ -1,0 +1,18 @@
+{
+    "skills" : [{
+        "title" : "Front-End Development",
+        "des" : "Slicing UI design into web pages using HTML, CSS, and Javascript especially using framework such as Bootstrap and React JS" 
+    },
+    {
+        "title" : "UI Design",
+        "des" : "Design website UI and wireframe using design tools such as Figma, whimsical, and Adobe Ilustrator." 
+    },
+    {
+        "title" : "Writing",
+        "des" : "Write articles for website or blog content, write product description, and story scripting. Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem " 
+    },
+    {
+        "title" : "Video Editing",
+        "des" : "Edit various kind of video, adding simple effect, giving subtitle or text, and making effect for opening or any other needs" 
+    }]
+}
