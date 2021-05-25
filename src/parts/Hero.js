@@ -29,7 +29,7 @@ export default function Hero (props) {
             </div>
           </div>
           <div
-            className="col-6 d-flex justify-content-center"
+            className="col d-flex justify-content-center"
             style={{marginLeft: 30}}
           >
             <img className="circle img-fluid" src={Circle} alt="circle" />
