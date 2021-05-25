@@ -180,11 +180,19 @@ header {
         position: absolute;
     }
     .col-5 {
+        img {
+        left: 40%;
+        width: 120px;
+        position: relative;
+        }
         &:hover {
             img {
                 transform: translateY(-10px);
                 transition: 0.1s transform ease-out;
             }
+        }
+        p {
+            font-size: 1.1em;
         }
     }
 }
@@ -192,12 +200,21 @@ header {
 .second-row {
     color: $secondary;
     transition: transform .1s ease-out;
+    padding-top: 2.5rem;
     .col-5{
+        img {
+            left: 40%;
+            width: 105px;
+            position: relative;
+            }
         &:hover {
             img {
                 transform: translateY(-10px);
                 transition: 0.1s transform ease-out;
             }
+        }
+        p {
+            font-size: 1.1em;
         }
     }
 }
@@ -368,6 +385,8 @@ footer {
             transform: scaleY(1);
         }
     }
+
+    // hero
     .hero-bg {
         height: 685px;
         section {
@@ -412,5 +431,54 @@ footer {
         }
     }
 
+    // skill section
+    article {
+       .first-row {
+           left: 50%;
+            display: block;
+            &::after {
+                content: '';
+                left: 50%;
+                height: 600px;
+                width: 3px;
+                background-color: #999898;
+                position: absolute;
+                display: none;
+            }
+            .col-5 {
+                width: auto !important;
+            h5 {
+                font-size: 1em;
+            }
+            p {
+                font-size: 0.876rem;
+            }
+            img {
+                width: 25%;
+                left: 38.1%;
+                margin-top: 1rem;
+            }
+        }
+       }
+       .second-row {
+        left: 50%;
+        display: block;
+        
+        .col-5 {
+            padding-top: 20px;
+            width: auto !important;
+        h5 {
+            font-size: 1em;
+        }
+        p {
+            font-size: 0.876rem;
+        }
+        img {
+            width: 25%;
+            left: 38.1%;
+        }
+    }
+       }
+    }
 
 }

@@ -17,18 +17,11 @@ export default function Skills (props) {
               return (
                 <div className="col-5 position-relative" key={`ke-${index}`}>
 
-                  <img
-                    src={icon[index]}
-                    alt={`icon-${index}`}
-                    style={{width: '120px', marginLeft: '40%'}}
-                  />
+                  <img src={icon[index]} alt={`icon-${index}`} />
                   <h5 className="pt-2 mt-3 mb-2 fw-bold text-center">
                     {item.title}
                   </h5>
-                  <p
-                    className="my-2 fw-normal text-center"
-                    style={{fontSize: '20px'}}
-                  >
+                  <p className="my-2 fw-normal text-center">
                     {item.des}
                   </p>
                 </div>
@@ -40,20 +33,13 @@ export default function Skills (props) {
           {props.data.map ((item, index) => {
             if (index > 1) {
               return (
-                <div className="col-5 pt-5" key={`ke-${index}`}>
+                <div className="col-5" key={`ke-${index}`}>
 
-                  <img
-                    src={icon[index]}
-                    alt={`icon-${index}`}
-                    style={{width: '105px', marginLeft: '39%'}}
-                  />
+                  <img src={icon[index]} alt={`icon-${index}`} />
                   <h5 className="pt-2 mt-3 mb-2 fw-bold text-center">
                     {item.title}
                   </h5>
-                  <p
-                    className="my-2 fw-normal text-center"
-                    style={{fontSize: '20px'}}
-                  >
+                  <p className="my-2 fw-normal text-center">
                     {item.des}
                   </p>
                 </div>
