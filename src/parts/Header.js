@@ -21,7 +21,7 @@ export default function Header (props) {
   }
 
   return (
-    <header className="spacing-sm pt-2">
+    <header className="container spacing-sm pt-2">
       <div className="hamburger" id="hamburger">
         <input type="checkbox" />
         <div />
