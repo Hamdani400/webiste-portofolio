@@ -31,7 +31,7 @@ export default function Experience (props) {
               <Button
                 type="link"
                 className="stretched-link"
-                href="/electrical-exp"
+                href="/experience/electrical-exp"
               >
                 Discover more
               </Button>
@@ -57,7 +57,7 @@ export default function Experience (props) {
               <Button
                 type="link"
                 className="stretched-link"
-                href="/front-end-exp"
+                href="/experience/front-end-exp"
               >
                 Discover more
               </Button>
@@ -83,7 +83,7 @@ export default function Experience (props) {
               <Button
                 type="link"
                 className="stretched-link"
-                href="/writing-exp"
+                href="/experience/writing-exp"
               >
                 Discover more
               </Button>

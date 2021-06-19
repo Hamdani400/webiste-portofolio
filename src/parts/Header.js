@@ -13,9 +13,17 @@ export default function Header (props) {
   const getNavLinkClass = path => {
     return props.location.pathname === path ? ' active' : '';
   };
+
   function scrollToSkills () {
     window.scrollTo ({
       top: 650,
+      behavior: 'smooth',
+    });
+  }
+
+  function scrollToExperience () {
+    window.scrollTo ({
+      top: 1450,
       behavior: 'smooth',
     });
   }
@@ -48,7 +56,7 @@ export default function Header (props) {
           </Button>
         </li>
         <li className={`nav-item${getNavLinkClass ('/experience')}`}>
-          <Button className="nav-link" type="link" href="/experience">
+          <Button className="nav-link" type="link" href={scrollToExperience}>
             Experience
           </Button>
         </li>
