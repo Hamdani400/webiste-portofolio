@@ -2,23 +2,30 @@
     "experience" : [{
         "route": "/experience/electrical-exp",
         "company": "PT. Angkasa Pura II (Banyuwangi International Airport)",
-        "Division": "Electrical, Mechanical, dan Equipment",
-        "Time": "Dec 2019 - Mar 2020",
-        "Desc": "Help on fixing electrical components issues, routine tools and generator maintenance, and record fuel usage of generator"
+        "division": "Electrical, Mechanical, dan Equipment",
+        "time": "Dec 2019 - Mar 2020",
+        "desc": "Help on fixing electrical components issues, routine tools and generator maintenance, and record fuel usage of generator"
     },
     {
         "route": "/experience/writing-exp",
-        "company": ["Saung Writer",
-                    "PT. Beryl Media Creative"],
-        "Division": "Freelance Writer",
-        "Time": {"1": "2018 - 2020", "2" : "2021 - present"},
-        "Desc": "Writing article based on clients brief and sometimes doing keyword keyword research"
+        "company": "Saung Writer",
+        "division": "Freelance Writer",
+        "time": "2021 - present",
+        "desc": "Writing article based on clients brief and sometimes doing keyword keyword research"
     },
 {
     "route": "/experience/front-end-exp",
         "company": "My Individual Project",
-        "Division": "My Portfolio",
-        "Time": "Present",
-        "Desc": "Development my own project that you can check them on my github page : https://github.com/hamdani400"
+        "division": "My Portfolio",
+        "time": "Present",
+        "desc": "Development my own project that you can check them on my github page : https://github.com/hamdani400",
+        "imgUrl": "/company-image/myweb.jpg"
+},
+{
+    "route": "/experience/writing-exp",
+    "company": "PT. Beryl Media Creative",
+    "division": "Freelance Writer",
+    "time": "2018 - 2020",
+    "desc": "Writing article based on clients brief and sometimes doing keyword keyword research"
 }]
 }

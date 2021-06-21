@@ -55,7 +55,9 @@ export default function Header (props) {
             Certificate
           </Button>
         </li>
-        <li className={`nav-item${getNavLinkClass ('/experience')}`}>
+        <li
+          className={`nav-item${getNavLinkClass ('/experience/electrical-exp')}${getNavLinkClass ('/experience/front-end-exp')}${getNavLinkClass ('/experience/writing-exp')}`}
+        >
           <Button className="nav-link" type="link" href={scrollToExperience}>
             Experience
           </Button>

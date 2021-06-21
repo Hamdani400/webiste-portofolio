@@ -386,6 +386,16 @@ box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.63);
     }
 }
 
+.experience-card {
+    -webkit-box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.63); 
+box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.63);
+            height: auto;
+            width: 55vw;
+            margin: 2.5rem auto;
+            overflow: hidden;
+            border-radius: 2%;
+}
+
 @media screen and (max-width: 600px) {
     // header
     header {
