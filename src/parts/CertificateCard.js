@@ -10,7 +10,7 @@ export default function CertificateCard (props) {
         {props.data.map ((data, index) => {
           return (
             <div className="row">
-              <Fade left delay={700 * index}>
+              <Fade left delay={200 * index}>
                 <div
                   className="card mt-3"
                   style={{width: 'auto', height: '80%'}}
@@ -34,7 +34,7 @@ export default function CertificateCard (props) {
         {props.data2.map ((data, index) => {
           return (
             <div className="row">
-              <Fade right delay={900 * index}>
+              <Fade right delay={300 * index}>
                 <div
                   className="card mt-3"
                   style={{width: 'auto', height: '80%'}}
