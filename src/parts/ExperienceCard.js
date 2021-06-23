@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'elements/Button';
 
 export default function ExperienceCard (props) {
   return (
@@ -9,13 +10,25 @@ export default function ExperienceCard (props) {
             <div className="experience-card container mt-5">
               <div className="row pt-4">
                 <div className="col-4">
-                  <img src={data.imgUrl} alt={data.imgName} />
+                  <Button type="link" href={data.url} isExternal>
+                    <img src={data.imgUrl} alt={data.imgName} />
+                  </Button>
                 </div>
                 <div className="col">
-                  <h5 className="company fw-bold">
-                    {data.company}
-                  </h5>
-                  <p>{data.time}</p>
+                  <Button
+                    type="link"
+                    href={data.url}
+                    style={{
+                      textDecoration: 'none',
+                      color: '#212529',
+                    }}
+                    isExternal
+                  >
+                    <h5 className="company fw-bold">
+                      {data.company}
+                    </h5>
+                  </Button>
+                  <p style={{color: '#adb5bd'}}>{data.time}</p>
                   <p>Division: {data.division}</p>
                   <p>{data.desc}</p>
                 </div>

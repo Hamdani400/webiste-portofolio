@@ -10,7 +10,7 @@ export default function Experience (props) {
     <section className="container mt-3">
       <div className="row">
         <div className="exp-title">
-          <h1>Working <br /> and Internship Experience</h1>
+          <h1>Working, Project, <br /> and Internship Experience</h1>
         </div>
       </div>
       <div className="row justify-content-end">

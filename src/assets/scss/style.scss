@@ -387,13 +387,23 @@ box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.63);
 }
 
 .experience-card {
-    -webkit-box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.63); 
-box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(151, 148, 148, 0.63); 
+box-shadow: 5px 5px 10px 5px rgba(182, 181, 181, 0.63);
             height: auto;
             width: 55vw;
             margin: 2.5rem auto;
             overflow: hidden;
             border-radius: 2%;
+            .row {
+                .col-4 {
+                    overflow: hidden;
+                    img {
+                        width: 80%;
+                        background-size: cover;
+                        padding: 0 0 1.2rem 1.3rem;
+                        }
+                    }
+                }
 }
 
 @media screen and (max-width: 600px) {

@@ -4,28 +4,44 @@
         "company": "PT. Angkasa Pura II (Banyuwangi International Airport)",
         "division": "Electrical, Mechanical, dan Equipment",
         "time": "Dec 2019 - Mar 2020",
-        "desc": "Help on fixing electrical components issues, routine tools and generator maintenance, and record fuel usage of generator"
+        "desc": "Help on fixing electrical components issues, routine tools and generator maintenance, and record fuel usage of generator",
+        "imgUrl": "/company-image/ap2.jpg",
+        "url": "https://www.linkedin.com/in/hamdani-dinul-haq-12b6821b2/"
     },
     {
         "route": "/experience/writing-exp",
         "company": "Saung Writer",
         "division": "Freelance Writer",
         "time": "2021 - present",
-        "desc": "Writing article based on clients brief and sometimes doing keyword keyword research"
+        "desc": "Writing article based on clients brief and sometimes doing keyword keyword research",
+        "imgUrl": "/company-image/typing1.jpeg",
+        "url": "https://www.linkedin.com/in/hamdani-dinul-haq-12b6821b2/"
     },
 {
     "route": "/experience/front-end-exp",
-        "company": "My Individual Project",
-        "division": "My Portfolio",
+        "company": "My Personal Website",
+        "division": "Design and Programming",
         "time": "Present",
-        "desc": "Development my own project that you can check them on my github page : https://github.com/hamdani400",
-        "imgUrl": "/company-image/myweb.jpg"
+        "desc": "Design UI, UX and slicing it into this website",
+        "imgUrl": "/company-image/myweb.jpg",
+        "url":"https://hamdaniportfolio.netlify.app/"
 },
 {
     "route": "/experience/writing-exp",
     "company": "PT. Beryl Media Creative",
     "division": "Freelance Writer",
     "time": "2018 - 2020",
-    "desc": "Writing article based on clients brief and sometimes doing keyword keyword research"
+    "desc": "Writing article based on clients brief and sometimes doing keyword keyword research",
+    "imgUrl": "/company-image/typing2.png",
+    "url": "https://www.linkedin.com/in/hamdani-dinul-haq-12b6821b2/"
+},
+{
+    "route": "/experience/front-end-exp",
+        "company": "Staycation Website",
+        "division": "Design and Programming",
+        "time": "Present",
+        "desc": "Design UI, UX and slicing it to become a functional website. I made this website when I took MERN course in buildwithangga.com.",
+        "imgUrl": "/company-image/staycation.jpg",
+        "url": "https://github.com/hamdani400/"
 }]
 }

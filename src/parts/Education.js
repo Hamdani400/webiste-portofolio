@@ -9,7 +9,7 @@ export default function Education () {
         <div className="row">
           <div className="col">
             <h1 className="fw-bold">
-              My <br /> Education
+              Education
             </h1>
           </div>
           <div className="col justify-content-center">
@@ -22,7 +22,7 @@ export default function Education () {
                 />
               </div>
               <p className="fw-bold text-center">SMKN 1 Pasuruan</p>
-              <p className="text-center">Majoring in Chemical Industry</p>
+              <p className="text-center">Major in Chemical Industry</p>
               <p className="fw-bold text-center">2013-2016</p>
             </aside>
           </div>
@@ -36,7 +36,7 @@ export default function Education () {
                 />
               </div>
               <p className="fw-bold text-center">Universitas Jember</p>
-              <p className="text-center">Majoring in Electrical Engineering</p>
+              <p className="text-center">Major in Electrical Engineering</p>
               <p className="fw-bold text-center">2017-on going</p>
             </aside>
           </div>

@@ -16,7 +16,7 @@ export default function Header (props) {
 
   function scrollToSkills () {
     window.scrollTo ({
-      top: 650,
+      top: 50,
       behavior: 'smooth',
     });
   }
@@ -41,7 +41,7 @@ export default function Header (props) {
           <Button className="nav-link" type="link" href="/">Home</Button>
         </li>
         <li className={`nav-item${getNavLinkClass ('/skill')}`}>
-          <Button className="nav-link" type="link" onClick={scrollToSkills}>
+          <Button className="nav-link" type="link" href={scrollToSkills}>
             Skill
           </Button>
         </li>
