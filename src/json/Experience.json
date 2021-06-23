@@ -1,7 +1,7 @@
 {
     "experience" : [{
         "route": "/experience/electrical-exp",
-        "company": "PT. Angkasa Pura II (Banyuwangi International Airport)",
+        "company": "PT. Angkasa Pura II (Banyuwangi International Airport) (Internship)",
         "division": "Electrical, Mechanical, dan Equipment",
         "time": "Dec 2019 - Mar 2020",
         "desc": "Help on fixing electrical components issues, routine tools and generator maintenance, and record fuel usage of generator",
@@ -42,6 +42,6 @@
         "time": "Present",
         "desc": "Design UI, UX and slicing it to become a functional website. I made this website when I took MERN course in buildwithangga.com.",
         "imgUrl": "/company-image/staycation.jpg",
-        "url": "https://github.com/hamdani400/"
+        "url": "https://staycationwebsite.netlify.app/"
 }]
 }

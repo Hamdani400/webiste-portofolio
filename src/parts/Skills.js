@@ -1,4 +1,6 @@
 /* eslint-disable array-callback-return */
+import Fade from 'react-reveal/Fade';
+
 import React from 'react';
 import uiIcon from 'assets/image/UIImg.png';
 import feIcon from 'assets/image/webImg.png';
@@ -16,14 +18,15 @@ export default function Skills (props) {
             if (index <= 1) {
               return (
                 <div className="col-5 position-relative" key={`ke-${index}`}>
-
-                  <img src={icon[index]} alt={`icon-${index}`} />
-                  <h5 className="pt-2 mt-3 mb-2 fw-bold text-center">
-                    {item.title}
-                  </h5>
-                  <p className="my-2 fw-normal text-center">
-                    {item.des}
-                  </p>
+                  <Fade bottom>
+                    <img src={icon[index]} alt={`icon-${index}`} />
+                    <h5 className="pt-2 mt-3 mb-2 fw-bold text-center">
+                      {item.title}
+                    </h5>
+                    <p className="my-2 fw-normal text-center">
+                      {item.des}
+                    </p>
+                  </Fade>
                 </div>
               );
             }
@@ -34,14 +37,15 @@ export default function Skills (props) {
             if (index > 1) {
               return (
                 <div className="col-5" key={`ke-${index}`}>
-
-                  <img src={icon[index]} alt={`icon-${index}`} />
-                  <h5 className="pt-2 mt-3 mb-2 fw-bold text-center">
-                    {item.title}
-                  </h5>
-                  <p className="my-2 fw-normal text-center">
-                    {item.des}
-                  </p>
+                  <Fade bottom delay={200}>
+                    <img src={icon[index]} alt={`icon-${index}`} />
+                    <h5 className="pt-2 mt-3 mb-2 fw-bold text-center">
+                      {item.title}
+                    </h5>
+                    <p className="my-2 fw-normal text-center">
+                      {item.des}
+                    </p>
+                  </Fade>
                 </div>
               );
             }

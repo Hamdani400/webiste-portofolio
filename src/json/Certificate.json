@@ -1,0 +1,21 @@
+{
+    "certificate": [{"title": "Belajar Membuat Aplikasi Android untuk Pemula",
+                    "url": "https://www.dicoding.com/certificates/QEYX4405RXDL"},
+                    {"title": "Memulai Pemrograman Dengan Kotlin",
+                    "url": "https://www.dicoding.com/certificates/QLZ98L7O7X5D"},
+                    {"title": "Belajar Dasar Pemrograman Web",
+                    "url": "https://www.dicoding.com/certificates/1RXY4VRJKPVM"},
+                    {"title": "Belajar Prinsip Pemrograman SOLID",
+                    "url": "https://www.dicoding.com/certificates/MRZMG9ER3ZYQ"},
+                    {"title": "Memulai Pemrograman Dengan Dart",
+                    "url": "https://www.dicoding.com/certificates/2VX3NW87JXYQ"}
+                   ],
+    "certificateCol2": [ {"title": "Belajar Dasar Pemrograman Javascript",
+        "url": "https://www.dicoding.com/certificates/JMZVMK3JQZN9"},
+        {"title": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+        "url": "https://www.dicoding.com/certificates/0LZ0DKNKQX65"},
+        {"title": "Belajar Membuat Aplikasi Back-End untuk Pemula",
+        "url": "https://www.dicoding.com/certificates/1OP8D9WE2PQK"},
+        {"title": "Belajar Membuat Front-End Web untuk Pemula",
+        "url": "https://www.dicoding.com/certificates/JMZVMWM0NZN9"}]
+}
